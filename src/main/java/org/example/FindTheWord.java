@@ -39,7 +39,7 @@ public class FindTheWord {
     private static boolean isValid(String word, Set<String> allWords) {
 
         if (word.length() == 1) {
-            return true;
+            return word.equals("A") || word.equals("I");
         }
         if(word.length() == 2) {
             return true;
